@@ -16,9 +16,9 @@ jobs:
       - name: Setup Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: 'stable'
+          flutter-version: stable
 
-      - name: Flutter Pub Get
+      - name: Install Dependencies
         run: flutter pub get
 
       - name: Build APK
